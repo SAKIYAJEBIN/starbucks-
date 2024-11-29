@@ -1,0 +1,535 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    border: border-box;
+    background-color: white;
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 75px;
+    padding: 0px 12px;
+    width: 100%;
+}
+.logo{
+    height: 100%;
+    width: 8%;
+    flex: 1;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin: 16px 0px;
+    margin-right: 400px;
+    padding: 0px 8px;
+    cursor:pointer
+    
+}
+.container2{
+    margin: 0px 27.7031px 0px 20px;
+    flex: 10;
+
+    
+}
+.links{
+    height: 100%;
+    width: 100%;
+    margin : 16px 0px;
+    padding: 0px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    display: flex;
+    gap: 20px;
+    
+}
+.xxl{
+    margin-right: 350px;
+}
+.search{
+    height: 36px;
+    width: 20vw;
+    margin: 10px 0px 16px 0px;
+    display: flex;
+    flex: 3;
+}
+.search img{
+    background-color: white;
+    height: 36px;
+    width: 15px;
+    padding: 0px 12px;
+    border-bottom-left-radius: 1.25rem ;
+    border-top-left-radius: 1.25rem;
+    border: none;
+    box-shadow: 2px 2px black;
+}
+.search input{
+    height: 36px;
+    width: 90%;
+    padding: 0px 5px;
+    border-top-right-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border: none;
+    box-shadow: 2px 2px black;
+}
+.links a{
+    margin: 0px 16px;
+    padding: 8px 0px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.links.home{
+    border-bottom: 2px solid #0E382c;
+    font-weight: bold;
+}
+.account{
+    width: 80px;
+}
+.account img{
+    float: right;
+    height: 32px;
+    width: 32px;
+}
+.gbanner{
+    background-color: rgb(5, 39, 5);
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+}
+.gbannercontainer{
+    margin-left: 60px;
+    display: flex;
+    width: 90%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.gbanner-heading p{
+    font-size: 20px;
+    color: white;
+}
+.gbanner-button button{
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background:rgb(5, 39, 5) ;
+    color: white;
+    
+}
+.menu{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80rem;
+    background-color: #0E382c;
+    
+    border-radius: 8px;
+    box-shadow: 3px 3px black;
+    display: flex;
+    cursor: pointer;
+}
+.menu img{
+    height: 200px;
+    width: 100px;
+}
+.menu-div{
+    color: white;
+}
+.menu1 button{
+    margin-left: 500px;
+    margin-top: 150px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+}
+.order-card{
+    display: flex;
+    justify-content: center;
+}
+.menuimg{
+    height: 220px;
+    width: 200px;
+}
+.menu p{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+menu h3{
+    font-size: 22px;
+}
+
+    
+    
+
+
+
+    
+    
+    
+    
+
+
+
+    
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contentcontainer{
+    width: 80rem;
+    color: #0E382c;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 12px;
+    text-shadow: 1px 1px black;
+}
+.fooditems{
+    width: 80rem;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.fooditems img{
+    cursor: pointer;
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+    
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fooditems img:hover{
+    border: 2px solid #0e382c
+}
+.fooditems div p{
+    width: 100px;
+    align-self: center;
+    font-size: small;
+}
+.fooditems .p1{
+    padding-left: 20px;
+}
+.fooditems .p2{
+    padding-left: 30px;
+}
+.fooditems .p3{
+    padding-left: 30px;
+}
+.fooditems .p4{
+    padding-left: 10px;
+}
+.fooditems .p5{
+    padding-left: 18px;
+}
+.fooditems .p6{
+    padding-left: 10px;
+}
+.cards-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #edebe9;
+   height: 20rem;
+}
+
+
+.cards-main{
+    display: flex;
+    justify-content: space-between;
+    width: 80rem;
+}
+.card{
+    display: flex;
+    width: 400px;
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 16px;
+     
+}
+.card p{
+    margin:0 ;
+    display: flex;
+
+}
+    
+
+.card-image{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+.card-image-section{
+  display: flex;
+  justify-content:center ;
+    flex-direction: column;
+
+
+
+}
+.card-image-section p{
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.card-btn button{
+    margin-left:180px;
+    margin-bottom: 10px;
+    background-color: #0e382c;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    
+    
+}
+
+.card-descrip-section{
+    padding: 10px;
+    height: 100px;
+}
+.card-heading{
+    font-size: medium;
+    font-weight: bold;
+}
+.dp{
+    font-size: small;
+    font-weight: 10px;
+    color: rgb(170, 167, 167);
+}
+.learnmore{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #edebe9;
+    height: 580px;
+    margin-bottom: 70px;
+    margin-top: 5rem;
+}
+.learncontainer{
+    padding-top: 10px;
+    height: 500px;
+    width: 75%;
+}
+.learncontainer span{
+    color: #1e3932;
+    font-size: 1.5em;
+    font-weight: bolder;
+    display: inline-block;
+    width: 90%;
+}
+.learncontainer h6{
+    display: inline-block;
+    color: #1a7a55;
+    font-size: 0.75em;
+    font-weight: 800;
+    position: relative;
+    cursor: pointer;
+}
+
+    
+    
+
+    
+
+.learnpic{
+    
+    background-image: url(https://preprodtsbstorage.blob.core.windows.net/cms/uploads/ICW_Live_Event_Day5_41f11ca3d2.jpg);
+    height: 10px;
+    width: 70rem;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    padding-top: 400px;
+    padding-left: 30px;
+    background-position-y: -150px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+    
+
+.learnpic h1{
+    color: white;
+    
+    font-size: 20px;
+    
+    margin-right: 800px;
+    position: absolute;
+    margin-top: -140px;
+    margin-bottom: 500px;
+    display: inline-flex;
+    
+    
+    
+    
+    
+}
+.learnpic h2{
+    color: rgb(255,255,255);
+    font-size: 28px;
+    margin-right:  800%;
+    
+    display: inline-flex;
+    position: absolute;
+    margin-bottom: 500rem;
+    margin-top: -900px
+    
+}
+.learnpic p{
+    
+    color: rgb(255,255,255);
+    font-size: 13px;
+    width: 100%;
+    
+    margin-bottom: 40px;
+    margin-top: -100px;
+    margin-right: 550px;
+    display: inline-flex;
+    
+}
+.learnpic .btn{
+    text-shadow: none;
+    background-color: white;
+    color: black;
+    width: 70px;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: inline-flex;
+    position: absolute;
+    margin-top: -60px;
+    font-size: 15px;
+    border-radius: 1.25rem;
+    margin-right: 900px;
+}
+.learnpic .btn:hover{
+    background-color: rgb(218,218,225);
+}
+.learnpic:hover{
+    box-shadow: inset 1px 1px 4px 4px rgba(0,0,0,0.781);
+}
+.coffee-culture{
+    position: absolute;
+    margin-left: -60rem;
+    margin-top: 7rem;
+    background: white;
+    padding: 3px 5px;
+    border-radius: 3px;
+    color: #1a7a55;
+}
+
+footer{
+   
+    background-color: #0E382c;
+    color: white;
+}
+.footpanel1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footpanel1 img{
+    padding-top: 100px;
+    height: 62px;
+    width: 62px;
+}
+.footpanel1 p{
+    padding-top: 50px;
+    font-size: 1.125em;
+    cursor: pointer;
+    font-weight: 600;
+}
+.footpanel1 li:hover{
+    color: rgba(255,255,255,0.375);
+}
+.medialinks img{
+    padding-top: 0px;
+    padding-left: 5px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.appstore{
+    
+    display: flex;
+    flex-direction: column ;
+    
+}
+.appstore img{
+    width:200px;
+
+    
+
+    
+}
+
+.conditions{
+    display: flex;
+    color: white;
+    width: 70%;
+    font-size: 0,65em;
+    
+    margin-left: 100px;
+    
+}
+.conditions p{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+
+    
+    
+    
+    
+    
+
+.copyright{
+    font-size: 0.8rem;
+    padding-top: 10px;
+    margin-left: 600px;
+    margin-right: 00px;
+}
+.footwidth{
+    width: 95%;
+    border-top: 0.1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    color: white;
+    margin-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
